@@ -1,17 +1,17 @@
 [gd_scene load_steps=4 format=2]
 
-[ext_resource path="res://assets/playerShip1_green.png" type="Texture" id=1]
+[ext_resource path="res://assets/kenney_platformercharacters/PNG/Player/Poses/player_idle.png" type="Texture" id=1]
 [ext_resource path="res://scripts/Player.gd" type="Script" id=2]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 49, 37.5 )
+extents = Vector2( 21, 42 )
 
 [node name="Player" type="KinematicBody2D"]
 script = ExtResource( 2 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 0, -0.5 )
+[node name="PlayerCollider" type="CollisionShape2D" parent="."]
+position = Vector2( 1, 13 )
 shape = SubResource( 1 )
 
-[node name="GreenShip" type="Sprite" parent="."]
+[node name="PlayerSprite" type="Sprite" parent="."]
 texture = ExtResource( 1 )
