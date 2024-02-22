@@ -14,9 +14,17 @@ config/name="Tutorial 3 Template"
 run/main_scene="res://scenes/Main.tscn"
 config/icon="res://icon.png"
 
+[global]
+
+input=false
+
 [gui]
 
 common/drop_mouse_on_gui_input_disabled=true
+
+[mono]
+
+project/assembly_name="Tutorial 3 Template"
 
 [physics]
 
