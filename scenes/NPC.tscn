@@ -9,7 +9,7 @@
 [ext_resource path="res://scripts/NPC.gd" type="Script" id=7]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 30.5, 43 )
+extents = Vector2( 44, 43 )
 
 [sub_resource type="SpriteFrames" id=2]
 animations = [ {
@@ -38,7 +38,7 @@ animations = [ {
 script = ExtResource( 7 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 0.5, 12 )
+position = Vector2( 0, 12 )
 shape = SubResource( 1 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
