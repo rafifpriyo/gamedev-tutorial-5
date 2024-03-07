@@ -8,6 +8,9 @@ extends KinematicBody2D
 onready var _walk_sprite = $AnimatedSprite
 var animation_name = 'idle'
 var animation_direction = 'right'
+var props: Dictionary = {
+	"contact_with_npc": false
+}
 
 export (int) var speed = 400
 export (int) var speed_crouch = 200
@@ -87,6 +90,17 @@ func get_input():
 	elif animation_name == 'walk_left':
 		animation_name = 'idle'
 		_walk_sprite.play('idle_left')
+		
+	if props["contact_with_npc"] and animation_name == 'idle':
+		if animation_direction == 'right':
+			_walk_sprite.play("talk_right")
+		elif animation_direction == 'left':
+			_walk_sprite.play("talk_left")
+	elif animation_name == 'idle':
+		if animation_direction == 'right':
+			_walk_sprite.play("idle_right")
+		elif animation_direction == 'left':
+			_walk_sprite.play("idle_left")
 
 
 # Called when the node enters the scene tree for the first time.
