@@ -111,11 +111,22 @@ func get_input():
 			_walk_sprite.play("talk_right")
 		elif animation_direction == 'left':
 			_walk_sprite.play("talk_left")
+			
+		if sound_name != 'talk':
+			_sound_effect.stream = load(str("res://assets/Sound/" + "Preview (Male)" + ".ogg"))
+			_sound_effect.play()
+			sound_name = 'talk'
+			sound_playing = true
 	elif animation_name == 'idle':
 		if animation_direction == 'right':
 			_walk_sprite.play("idle_right")
 		elif animation_direction == 'left':
 			_walk_sprite.play("idle_left")
+	
+	if not props["contact_with_npc"] and sound_name == 'talk':
+			_sound_effect.stop()
+			sound_playing = false
+			sound_name = 'idle'
 
 
 # Called when the node enters the scene tree for the first time.

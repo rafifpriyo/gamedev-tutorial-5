@@ -45,3 +45,5 @@ shape = SubResource( 1 )
 frames = SubResource( 2 )
 animation = "idle_left"
 playing = true
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
