@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/war_sniper.ogg-b5c33240689a2108807014d3c5510a00.oggstr"
+
+[deps]
+
+source_file="res://assets/Sound/Female/war_sniper.ogg"
+dest_files=[ "res://.import/war_sniper.ogg-b5c33240689a2108807014d3c5510a00.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

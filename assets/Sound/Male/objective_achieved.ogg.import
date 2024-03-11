@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/objective_achieved.ogg-78c1a63b9dc5c83aaf4a28f33c2de1e6.oggstr"
+
+[deps]
+
+source_file="res://assets/Sound/Male/objective_achieved.ogg"
+dest_files=[ "res://.import/objective_achieved.ogg-78c1a63b9dc5c83aaf4a28f33c2de1e6.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

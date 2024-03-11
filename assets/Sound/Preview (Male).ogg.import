@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Preview (Male).ogg-4a38e55f9b5e5088aebd0e06bb99e143.oggstr"
+
+[deps]
+
+source_file="res://assets/Sound/Preview (Male).ogg"
+dest_files=[ "res://.import/Preview (Male).ogg-4a38e55f9b5e5088aebd0e06bb99e143.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

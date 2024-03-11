@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/go.ogg-7c16fc49c0ebd08d47689275d3eb45eb.oggstr"
+
+[deps]
+
+source_file="res://assets/Sound/Female/go.ogg"
+dest_files=[ "res://.import/go.ogg-7c16fc49c0ebd08d47689275d3eb45eb.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

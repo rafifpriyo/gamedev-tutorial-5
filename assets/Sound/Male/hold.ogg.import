@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/hold.ogg-bf7f2cc98345dd155c8e3f6df43965f4.oggstr"
+
+[deps]
+
+source_file="res://assets/Sound/Male/hold.ogg"
+dest_files=[ "res://.import/hold.ogg-bf7f2cc98345dd155c8e3f6df43965f4.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

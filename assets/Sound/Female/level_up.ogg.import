@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/level_up.ogg-2cd19e4570b521a73dbaa305ce7ee246.oggstr"
+
+[deps]
+
+source_file="res://assets/Sound/Female/level_up.ogg"
+dest_files=[ "res://.import/level_up.ogg-2cd19e4570b521a73dbaa305ce7ee246.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

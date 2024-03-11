@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/war_rpg.ogg-c4340ddca87dd1dd23dc582e150aae3e.oggstr"
+
+[deps]
+
+source_file="res://assets/Sound/Male/war_rpg.ogg"
+dest_files=[ "res://.import/war_rpg.ogg-c4340ddca87dd1dd23dc582e150aae3e.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

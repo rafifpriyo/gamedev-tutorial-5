@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/war_reloading.ogg-882cdb808230aabf763bd4815b7c459a.oggstr"
+
+[deps]
+
+source_file="res://assets/Sound/Male/war_reloading.ogg"
+dest_files=[ "res://.import/war_reloading.ogg-882cdb808230aabf763bd4815b7c459a.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

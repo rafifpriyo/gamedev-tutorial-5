@@ -82,3 +82,5 @@ shape = SubResource( 1 )
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 frames = SubResource( 2 )
 animation = "idle_right"
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]

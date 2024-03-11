@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/war_cover_me.ogg-79b016d9feee120805442fe385421dba.oggstr"
+
+[deps]
+
+source_file="res://assets/Sound/Male/war_cover_me.ogg"
+dest_files=[ "res://.import/war_cover_me.ogg-79b016d9feee120805442fe385421dba.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

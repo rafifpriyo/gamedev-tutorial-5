@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/9.ogg-279e9383b49f5906229bf3660313c21f.oggstr"
+
+[deps]
+
+source_file="res://assets/Sound/Male/9.ogg"
+dest_files=[ "res://.import/9.ogg-279e9383b49f5906229bf3660313c21f.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

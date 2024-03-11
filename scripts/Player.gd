@@ -6,8 +6,11 @@ extends KinematicBody2D
 # var b = "text"
 
 onready var _walk_sprite = $AnimatedSprite
+onready var _sound_effect = $AudioStreamPlayer2D
 var animation_name = 'idle'
 var animation_direction = 'right'
+var sound_name = 'idle'
+var sound_playing = false
 var props: Dictionary = {
 	"contact_with_npc": false
 }
@@ -65,6 +68,7 @@ func get_input():
 		if not animation_name == 'jump' and not animation_name == 'crouch':
 			_walk_sprite.play("walk_right")
 			animation_name = 'walk_right'
+			sound_name = 'walk'
 		elif animation_name == 'jump':
 			_walk_sprite.play("jump_right")
 		animation_direction = 'right'
@@ -74,12 +78,14 @@ func get_input():
 			velocity.x += speed
 	elif animation_name == 'walk_right':
 		animation_name = 'idle'
+		sound_name = 'walk'
 		_walk_sprite.play('idle_right')
 	
 	if Input.is_action_pressed('ui_left'):
 		if not animation_name == 'jump' and not animation_name == 'crouch':
 			_walk_sprite.play("walk_left")
 			animation_name = 'walk_left'
+			sound_name = 'walk'
 		elif animation_name == 'jump':
 			_walk_sprite.play("jump_left")
 		animation_direction = 'left'
@@ -90,6 +96,15 @@ func get_input():
 	elif animation_name == 'walk_left':
 		animation_name = 'idle'
 		_walk_sprite.play('idle_left')
+		
+	if sound_name == 'walk' and not (animation_name == 'walk_left' or animation_name == 'walk_right'):
+		_sound_effect.stop()
+		sound_playing = false
+		sound_name = 'idle'
+	elif sound_name == 'walk' and not sound_playing:
+		_sound_effect.stream = load(str("res://assets/Sound/" + "Walk" + ".wav"))
+		_sound_effect.play()
+		sound_playing = true
 		
 	if props["contact_with_npc"] and animation_name == 'idle':
 		if animation_direction == 'right':

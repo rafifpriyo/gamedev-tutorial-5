@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/war_watch_my_back.ogg-b309c5d0c6cad48c4ff66273f074e55a.oggstr"
+
+[deps]
+
+source_file="res://assets/Sound/Female/war_watch_my_back.ogg"
+dest_files=[ "res://.import/war_watch_my_back.ogg-b309c5d0c6cad48c4ff66273f074e55a.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
